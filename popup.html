@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productivity Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h3>Set Your Task</h3>
+  <label for="task">Task:</label>
+  <input type="text" id="task">
+  <label for="time">Time (minutes):</label>
+  <input type="number" id="time">
+  <button id="startTimer">Start Timer</button>
+  <h3>Blocked Websites</h3>
+  <label for="blockedSite">Website:</label>
+  <input type="text" id="blockedSite">
+  <button id="addBlockedSite">Add to Block List</button>
+  <ul id="blockList"></ul>
+  <h3>Remaining Time: <span id="remainingTime"></span></h3>
+  <script src="popup.js"></script>
+</body>
+</html>
